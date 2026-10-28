@@ -1,107 +1,81 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Athletics stories, events, athletes and inspiration." />
-  <title>Athletics World — Stories, Sport & Inspiration</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Athletics news, athletes, competitions and inspiring stories.">
+  <title>Athletics World | Stories that move us</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="utility-bar">
-      <a href="#inside">Inside Athletics</a>
-      <a href="#museum">Museum</a>
-      <a href="#library">Library</a>
-      <span class="utility-spacer"></span>
-      <a href="#partners">Partners</a>
-      <a class="partner-tag" href="#partners">SPORT<span>+</span></a>
-      <button class="icon-button search-button" aria-label="Search" id="searchToggle">⌕</button>
-      <button class="icon-button" aria-label="Account">♙</button>
+<header class="header">
+  <div class="utility">
+    <a href="#inside">Inside World Athletics</a><a href="#museum">Museum</a><a href="#library">Library</a>
+    <span class="push"></span><a href="#suppliers">World Athletics Supplier</a><a class="sponsor" href="#partners">Corpay<span>▲</span></a>
+    <button class="icon-button" id="searchToggle" aria-label="Open search">⌕</button>
+    <button class="icon-button account" aria-label="Account">♙</button>
+  </div>
+  <div class="nav-wrap">
+    <a class="logo" href="#home" aria-label="Athletics World home">
+      <span class="logo-symbol"><i></i><i></i><i></i><i></i></span>
+      <span>WORLD<br><b>ATHLETICS</b></span>
+    </a>
+    <button class="hamburger" id="menuToggle" aria-label="Toggle navigation">☰</button>
+    <nav class="nav" id="nav">
+      <a class="active" href="#home">Home</a><a href="#news">News</a><a class="watch" href="#watch">Watch</a>
+      <a href="#competitions">Competitions</a><a href="#athletes">Athletes</a><a href="#stats">Stats</a>
+      <a href="#ultimate">Ultimate</a><a href="#run">RUN X</a><a href="#shop">Shop</a>
+      <a class="join" href="#join">WORLD<br>ATHLETICS <span>✦</span></a>
+    </nav>
+  </div>
+  <form class="search" id="searchForm"><input aria-label="Search" placeholder="Search news, athletes and competitions"><button>Search</button></form>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-copy">
+      <div class="eyebrow">FEATURED STORY</div>
+      <h1 id="heroTitle">World Athletics inspires the next generation through the power of sport</h1>
+      <p id="heroSummary">Discover the people, moments and ideas bringing communities together through athletics.</p>
+      <a class="read-more" href="#news">Read more <span>↗</span></a>
     </div>
-    <div class="main-nav">
-      <a class="brand" href="#" aria-label="Athletics World home">
-        <span class="brand-mark"><i></i><i></i><i></i><i></i></span>
-        <span class="brand-name">ATHLETICS<br><b>WORLD</b></span>
-      </a>
-      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
-      <nav class="nav-links" id="navLinks">
-        <a class="active" href="#home">Home</a>
-        <a href="#news">News</a>
-        <a class="watch-link" href="#watch">Watch</a>
-        <a href="#competitions">Competitions</a>
-        <a href="#athletes">Athletes</a>
-        <a href="#stats">Stats</a>
-        <a href="#stories">Stories</a>
-        <a href="#run">Run</a>
-        <a href="#shop">Shop</a>
-        <a class="join-link" href="#join">JOIN THE<br>COMMUNITY <span>✦</span></a>
-      </nav>
+    <div class="hero-footer">
+      <div class="progress" aria-label="Featured stories">
+        <button class="progress-item chosen" data-slide="0" aria-label="Show story 1"></button>
+        <button class="progress-item" data-slide="1" aria-label="Show story 2"></button>
+        <button class="progress-item" data-slide="2" aria-label="Show story 3"></button>
+        <button class="progress-item" data-slide="3" aria-label="Show story 4"></button>
+        <button class="progress-item" data-slide="4" aria-label="Show story 5"></button>
+      </div>
+      <span id="slideCount">01 / 05</span>
     </div>
-    <form class="search-panel" id="searchPanel">
-      <input type="search" placeholder="Search athletes, events and stories…" aria-label="Search site">
-      <button type="submit">Search</button>
-    </form>
-  </header>
+    <button class="arrow prev" id="prevSlide" aria-label="Previous story">‹</button>
+    <button class="arrow next" id="nextSlide" aria-label="Next story">›</button>
+  </section>
 
-  <main>
-    <section class="hero" id="home">
-      <div class="hero-shade"></div>
-      <div class="hero-content">
-        <div class="eyebrow"><span>FEATURED STORY</span></div>
-        <h1 id="heroTitle">Inspiring the next generation through the power of athletics</h1>
-        <p class="hero-summary" id="heroSummary">Discover the people, moments and ideas bringing communities together through sport.</p>
-        <a class="read-more" href="#news">Explore the story <span>↗</span></a>
-      </div>
-      <div class="hero-bottom">
-        <div class="slide-controls" aria-label="Featured stories">
-          <button class="slide-dot selected" data-slide="0" aria-label="Story 1"></button>
-          <button class="slide-dot" data-slide="1" aria-label="Story 2"></button>
-          <button class="slide-dot" data-slide="2" aria-label="Story 3"></button>
-          <button class="slide-dot" data-slide="3" aria-label="Story 4"></button>
-          <button class="slide-dot" data-slide="4" aria-label="Story 5"></button>
-        </div>
-        <span class="slide-count" id="slideCount">01 / 05</span>
-      </div>
-      <button class="hero-arrow prev" id="prevSlide" aria-label="Previous story">‹</button>
-      <button class="hero-arrow next" id="nextSlide" aria-label="Next story">›</button>
-    </section>
+  <section class="latest" id="news">
+    <div class="section-head"><div><p class="overline">LATEST STORIES</p><h2>More from athletics</h2></div><a href="#all-news">View all stories <span>↗</span></a></div>
+    <div class="cards">
+      <article><div class="art art-one"><span>01</span><b>COMMUNITY</b></div><p class="meta">COMMUNITY · 5 MIN READ</p><h3>Sport brings people together, one stride at a time</h3><a href="#community">Read story ↗</a></article>
+      <article><div class="art art-two"><span>02</span><b>COMPETITION</b></div><p class="meta">COMPETITION · 4 MIN READ</p><h3>The moments that make a meet unforgettable</h3><a href="#competition">Read story ↗</a></article>
+      <article><div class="art art-three"><span>03</span><b>ATHLETES</b></div><p class="meta">ATHLETES · 6 MIN READ</p><h3>Meet the rising stars shaping the future of sport</h3><a href="#athletes">Read story ↗</a></article>
+    </div>
+  </section>
+</main>
 
-    <section class="below-fold" id="news">
-      <div class="section-heading">
-        <div><p class="kicker">THE LATEST</p><h2>More from athletics</h2></div>
-        <a href="#all-news" class="all-link">View all stories <span>↗</span></a>
-      </div>
-      <div class="story-grid">
-        <article class="story-card">
-          <div class="card-art art-orange"><span class="art-number">01</span><span class="art-label">COMMUNITY</span></div>
-          <p class="card-meta">COMMUNITY · 5 MIN READ</p><h3>Sport brings people together, one stride at a time</h3><a href="#community">Read story ↗</a>
-        </article>
-        <article class="story-card">
-          <div class="card-art art-green"><span class="art-number">02</span><span class="art-label">COMPETITION</span></div>
-          <p class="card-meta">COMPETITION · 4 MIN READ</p><h3>The moments that make a meet unforgettable</h3><a href="#competition">Read story ↗</a>
-        </article>
-        <article class="story-card">
-          <div class="card-art art-purple"><span class="art-number">03</span><span class="art-label">ATHLETES</span></div>
-          <p class="card-meta">ATHLETES · 6 MIN READ</p><h3>Meet the rising stars shaping the future of sport</h3><a href="#athletes">Read story ↗</a>
-        </article>
-      </div>
-    </section>
-  </main>
-
-  <aside class="promo" id="promo">
-    <button class="promo-close" id="closePromo" aria-label="Close promotion">×</button>
-    <p class="promo-kicker">YOUR NEXT GREAT SPORTING MOMENT</p>
-    <h2>Feel the energy.<br>Be part of it.</h2>
-    <p>Follow the stories, events and athletes you love.</p>
-    <a href="#join" class="promo-button">EXPLORE NOW</a>
-    <div class="promo-lines"></div>
-  </aside>
-
-  <footer><span>ATHLETICS WORLD</span><span>Stories that move us.</span></footer>
-  <script src="script.js"></script>
+<aside class="promo" id="promo">
+  <button id="closePromo" aria-label="Close promotion">×</button>
+  <p class="promo-label">WORLD ATHLETICS AWARDS 2026</p>
+  <h2>Your next great sporting moment awaits.</h2>
+  <p>Follow the stories, events and athletes you love.</p>
+  <a href="#join">EXPLORE NOW</a>
+  <div class="promo-stripes"></div>
+</aside>
+<footer><b>WORLD ATHLETICS</b><span>Stories that move us.</span></footer>
+<script src="script.js"></script>
 </body>
 </html>
