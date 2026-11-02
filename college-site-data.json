@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-02T13:13:46.063Z",
+  "generatedAt": "2026-11-02T13:27:55.606Z",
   "directory": [
     {
       "id": "person_1793251976696_4ko25",
@@ -226,7 +226,14 @@
         "details": "Boys: Rohit Sharma House vs Yogeshwar Dutt House & Abhinav Bindra House vs Pardeep Narwal House --Girls: Pardeep Narwal House vs Yogeshwar Dutt House & Abhinav Bindra House vs Rohit Sharma House & Finals"
       }
     ],
-    "announcements": [],
+    "announcements": [
+      {
+        "id": "ann_1793625878030",
+        "date": "2026-11-02",
+        "title": "Badminton Boys and Girls",
+        "body": "All badminton teams (Boys and Girls) are instructed to remain ready for the morning sports events. Team members must report to the designated venue on time, as per the match schedule. All participants are advised to arrive at least 15 minutes before the scheduled start of their matches."
+      }
+    ],
     "events": [
       {
         "id": "ev_cricket",
@@ -296,7 +303,5 @@
   "allStudents": [],
   "students": [],
   "registrations": [],
-  "winnerAwards": [
-    
-  ]
+  "winnerAwards": []
 }
