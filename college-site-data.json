@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-02T14:24:51.023Z",
+  "generatedAt": "2026-11-03T05:32:17.982Z",
   "directory": [
     {
       "id": "person_1793628494588_t5p7h",
@@ -181,6 +181,46 @@
     ],
     "results": [
       {
+        "id": "res_1793683814455",
+        "gender": "Boys",
+        "sport": "Badminton",
+        "house": "Yogeshwar Dutt House",
+        "position": 2,
+        "points": 3,
+        "date": "2026-11-03",
+        "score": ""
+      },
+      {
+        "id": "res_1793683802431",
+        "gender": "Girls",
+        "sport": "Badminton",
+        "house": "Rohit Sharma House",
+        "position": 1,
+        "points": 5,
+        "date": "2026-11-03",
+        "score": ""
+      },
+      {
+        "id": "res_1793683787095",
+        "gender": "Boys",
+        "sport": "Badminton",
+        "house": "Abhinav Bindra",
+        "position": 2,
+        "points": 3,
+        "date": "2026-11-03",
+        "score": ""
+      },
+      {
+        "id": "res_1793683761759",
+        "gender": "Boys",
+        "sport": "Badminton",
+        "house": "Rohit Sharma House",
+        "position": 1,
+        "points": 5,
+        "date": "2026-11-03",
+        "score": ""
+      },
+      {
         "id": "res_1793624385752",
         "gender": "Boys",
         "sport": "Cricket",
@@ -335,5 +375,32 @@
   "allStudents": [],
   "students": [],
   "registrations": [],
-  "winnerAwards": []
+  "winnerAwards": [
+    {
+      "id": "award_1793343295197_ex3dg",
+      "studentId": "b2023a20biv",
+      "admission": "b2023a20biv",
+      "studentName": "rahul",
+      "course": "B.Sc 4th year",
+      "house": "House 1",
+      "game": "badminton",
+      "category": "Boys",
+      "position": 1,
+      "date": "2026-10-30",
+      "manual": false
+    },
+    {
+      "id": "award_1793334271497_u6mjc",
+      "studentId": "21",
+      "admission": "21",
+      "studentName": "Sunny Kumar",
+      "course": "2nd",
+      "house": "House 1",
+      "game": "100m",
+      "category": "Boys",
+      "position": 1,
+      "date": "2026-10-30",
+      "manual": false
+    }
+  ]
 }
