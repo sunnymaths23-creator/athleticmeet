@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-03T06:08:24.832Z",
+  "generatedAt": "2026-11-03T15:10:29.013Z",
   "directory": [
     {
       "id": "person_1793628494588_t5p7h",
@@ -180,6 +180,46 @@
       "Abhinav Bindra"
     ],
     "results": [
+      {
+        "id": "res_1793718350909",
+        "gender": "Girls",
+        "sport": "Volleyball",
+        "house": "Yogeshwar Dutt House",
+        "position": 2,
+        "points": 3,
+        "date": "2026-11-03",
+        "score": ""
+      },
+      {
+        "id": "res_1793718325814",
+        "gender": "Girls",
+        "sport": "Volleyball",
+        "house": "Abhinav Bindra",
+        "position": 1,
+        "points": 5,
+        "date": "2026-11-03",
+        "score": ""
+      },
+      {
+        "id": "res_1793718294570",
+        "gender": "Boys",
+        "sport": "Volleyball",
+        "house": "Pardeep Narwal House",
+        "position": 2,
+        "points": 3,
+        "date": "2026-11-03",
+        "score": ""
+      },
+      {
+        "id": "res_1793718269443",
+        "gender": "Boys",
+        "sport": "Volleyball",
+        "house": "Yogeshwar Dutt House",
+        "position": 1,
+        "points": 5,
+        "date": "2026-11-03",
+        "score": ""
+      },
       {
         "id": "res_1793683814455",
         "gender": "Girls",
@@ -375,32 +415,5 @@
   "allStudents": [],
   "students": [],
   "registrations": [],
-  "winnerAwards": [
-    {
-      "id": "award_1793343295197_ex3dg",
-      "studentId": "b2023a20biv",
-      "admission": "b2023a20biv",
-      "studentName": "rahul",
-      "course": "B.Sc 4th year",
-      "house": "House 1",
-      "game": "badminton",
-      "category": "Boys",
-      "position": 1,
-      "date": "2026-10-30",
-      "manual": false
-    },
-    {
-      "id": "award_1793334271497_u6mjc",
-      "studentId": "21",
-      "admission": "21",
-      "studentName": "Sunny Kumar",
-      "course": "2nd",
-      "house": "House 1",
-      "game": "100m",
-      "category": "Boys",
-      "position": 1,
-      "date": "2026-10-30",
-      "manual": false
-    }
-  ]
+  "winnerAwards": []
 }
