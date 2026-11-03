@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-03T15:10:29.013Z",
+  "generatedAt": "2026-11-03T15:22:33.196Z",
   "directory": [
     {
       "id": "person_1793628494588_t5p7h",
@@ -333,6 +333,18 @@
       }
     ],
     "announcements": [
+      {
+        "id": "ann_1793719346782",
+        "date": "2026-11-04",
+        "title": "Kabaddi Boys",
+        "body": "All participating boys’ Kabaddi teams are hereby informed to remain ready for their respective matches as per the event schedule.\n\nAll teams must report to the Kabaddi ground at least 15 minutes before their scheduled match. House in-charges are requested to ensure the timely presence of all players."
+      },
+      {
+        "id": "ann_1793719258216",
+        "date": "2026-11-04",
+        "title": "Table Tennis Boys and Girls",
+        "body": "All participating boys’ and girls’ Table Tennis players are hereby informed to remain ready for their respective matches as per the event schedule. All participants must report to the designated venue at least 15 minutes before their scheduled match i.e 6 AM. Team in-charges are requested to ensure the timely presence of all players."
+      },
       {
         "id": "ann_1793629466622",
         "date": "2026-11-02",
