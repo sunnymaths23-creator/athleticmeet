@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-03T15:33:53.146Z",
+  "generatedAt": "2026-11-04T04:11:39.590Z",
   "directory": [
     {
       "id": "person_1793628494588_t5p7h",
@@ -177,9 +177,49 @@
       "Rohit Sharma House",
       "Pardeep Narwal House",
       "Yogeshwar Dutt House",
-      "Abhinav Bindra"
+      "Abhinav Bindra House"
     ],
     "results": [
+      {
+        "id": "res_1793765308600",
+        "gender": "Girls",
+        "sport": "Table Tennis",
+        "house": "Pardeep Narwal House",
+        "position": 1,
+        "points": 5,
+        "date": "2026-11-04",
+        "score": ""
+      },
+      {
+        "id": "res_1793765266241",
+        "gender": "Girls",
+        "sport": "Table Tennis",
+        "house": "Abhinav Bindra House",
+        "position": 2,
+        "points": 3,
+        "date": "2026-11-04",
+        "score": ""
+      },
+      {
+        "id": "res_1793765237947",
+        "gender": "Boys",
+        "sport": "Table Tennis",
+        "house": "Yogeshwar Dutt House",
+        "position": 2,
+        "points": 3,
+        "date": "2026-11-04",
+        "score": ""
+      },
+      {
+        "id": "res_1793765179802",
+        "gender": "Boys",
+        "sport": "Table Tennis",
+        "house": "Pardeep Narwal House",
+        "position": 1,
+        "points": 5,
+        "date": "2026-11-04",
+        "score": ""
+      },
       {
         "id": "res_1793718350909",
         "gender": "Girls",
@@ -194,7 +234,7 @@
         "id": "res_1793718325814",
         "gender": "Girls",
         "sport": "Volleyball",
-        "house": "Abhinav Bindra",
+        "house": "Abhinav Bindra House",
         "position": 1,
         "points": 5,
         "date": "2026-11-03",
@@ -244,7 +284,7 @@
         "id": "res_1793683787095",
         "gender": "Boys",
         "sport": "Badminton",
-        "house": "Abhinav Bindra",
+        "house": "Abhinav Bindra House",
         "position": 2,
         "points": 3,
         "date": "2026-11-03",
@@ -274,7 +314,7 @@
         "id": "res_1793624338083",
         "gender": "Boys",
         "sport": "Cricket",
-        "house": "Abhinav Bindra",
+        "house": "Abhinav Bindra House",
         "position": 1,
         "points": 5,
         "date": "2026-11-02",
