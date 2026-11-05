@@ -1,6 +1,6 @@
-{
++{
   "schemaVersion": 1,
-  "generatedAt": "2026-11-04T04:11:39.590Z",
+  "generatedAt": "2026-11-05T07:48:56.878Z",
   "directory": [
     {
       "id": "person_1793628494588_t5p7h",
@@ -180,6 +180,46 @@
       "Abhinav Bindra House"
     ],
     "results": [
+      {
+        "id": "res_1793864876863",
+        "gender": "Boys",
+        "sport": "Yoga",
+        "house": "Abhinav Bindra House",
+        "position": 2,
+        "points": 3,
+        "date": "2026-11-05",
+        "score": "Mixed Event"
+      },
+      {
+        "id": "res_1793864847210",
+        "gender": "Boys",
+        "sport": "Yoga",
+        "house": "Rohit Sharma House",
+        "position": 1,
+        "points": 5,
+        "date": "2026-11-05",
+        "score": "Mixed Event"
+      },
+      {
+        "id": "res_1793864774316",
+        "gender": "Boys",
+        "sport": "Kabaddi",
+        "house": "Abhinav Bindra House",
+        "position": 2,
+        "points": 3,
+        "date": "2026-11-04",
+        "score": ""
+      },
+      {
+        "id": "res_1793864756670",
+        "gender": "Boys",
+        "sport": "Kabaddi",
+        "house": "Pardeep Narwal House",
+        "position": 1,
+        "points": 5,
+        "date": "2026-11-04",
+        "score": ""
+      },
       {
         "id": "res_1793765308600",
         "gender": "Girls",
